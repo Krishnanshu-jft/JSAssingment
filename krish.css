@@ -1,0 +1,79 @@
+.margin{
+    margin-top: 30px;
+}
+.marginbottom{
+    margin-bottom: 50px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: #8e9dbf;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#button1{
+    margin-top: 100px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: rgba(133, 85, 172, 0.89);
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#counts{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 100px;
+}
+#total-counts{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     height: 20vh;
+     border: 2px solid black;
+     background-color: lightgray;
+     width: 15vw;
+}
+#Add-counter{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     height: 20vh;
+     border: 2px solid black;
+     background-color: lightgray;
+     width: 15vw;
+}
+#Delete-counter{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: lightgray;
+     text-align: center;
+     height: 20h;
+     border: 2px solid black;
+     width: 15vw;
+}
+#Edit-counter{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: lightgray;
+     text-align: center;
+     height: 20vh;
+     border: 2px solid black;
+     width: 15vw;
+}
